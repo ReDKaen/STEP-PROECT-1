@@ -1,0 +1,234 @@
+.header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
+    width: 100ww;
+    height: 800px;
+    background-image: url(../image/background1.png);
+}
+
+.menu-header-wrraper{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hexagon-wrraper{
+    position: relative;
+    margin-left: 200px;
+    width: 100px;
+    margin-right: auto;
+}
+
+.h-hexagon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 31px;
+    left: 13px;
+}
+
+.hexagon{
+    margin-top: 19px;
+}
+
+.logo-text-wrraper{
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+
+.logo-text-1{
+    font-family: 'Montserrat', sans-serif;
+    font-Weight: 200;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo-text-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #18CFAB;
+    text-decoration: none;
+}
+
+.header-menu-list{
+    display: flex; 
+    margin-top: 35px;
+    margin-right: 200px;
+}
+
+.element-menu-list{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF99;  
+    margin-left: 10px;
+    margin-right: 10px;  
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.element-menu-list:hover{
+    color: #18CFAB;
+    padding-bottom: 37px;
+    border-bottom: solid #18CFAB 2px;
+}
+
+.wrraper-text-header{
+    margin-top: 170px;
+    line-height: 70px;
+}
+
+.first-line{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.first-line-blue{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #18CFAB;
+    text-align: center;
+}
+
+.second-line{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 78px;
+    font-weight: 700;
+    right: 70px;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.third-line{
+    right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: #D4D4D4;
+    text-align: center;
+}
+
+.header-button-wrraper{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-button-first{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #18CFAB;
+    border-top: solid white 4px;
+    margin-right: 10px;
+}
+
+.header-button-second{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #00CBF6;
+    border-top: solid white 4px; 
+    margin-left: 10px;
+}
+
+.box{
+    margin-top: 5px;
+    display: flex;
+}
+
+.first-box{
+    width: 376px;
+    height: 300px;
+    background-color: #1C2A33;
+}
+
+.first-box-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #18CFAB;
+    margin-top: 30px;
+}
+
+.first-box-img{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.second-box{
+    width: 376px;
+    height: 300px;
+    background-color: #18CFAB;
+}
+
+.second-box-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.second-box-img{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.third-box{
+    width: 376px;
+    height: 300px;
+    background-color: #1C2A33;
+}
+
+.third-box-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #18CFAB;
+    margin-top: 30px;
+}
+
+.third-box-img{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.four-box{
+    width: 376px;
+    height: 300px;
+    background-color: #18CFAB;
+}
+
+.four-box-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.four-box-img{
+    margin-top: 80px;
+    margin-left: 130px;
+}
