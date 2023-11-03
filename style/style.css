@@ -4,7 +4,7 @@
     background-size: cover;
     background-attachment:fixed ;
     width: 100ww;
-    height: 800px;
+    height: 790px;
     background-image: url(../image/background1.png);
 }
 
@@ -231,4 +231,128 @@
 .four-box-img{
     margin-top: 80px;
     margin-left: 130px;
+}
+
+.logo-of-tabs{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.tabs-wrraper{
+    margin-top: 80px;
+    position: relative;
+    padding-bottom: 30px;   
+}
+
+.tabs-wrraper::before,
+.tabs-wrraper::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 1px; 
+    background-color: #18CFAB;
+    border-radius: 20px;
+}
+
+.tabs-wrraper::before{
+    top: 50px;
+    left: 630px;
+}
+
+.tabs-wrraper::after{
+    top: 53px;
+    left: 640px;
+}
+
+.tabs{
+    margin-top: 130px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.tabs-title{
+    width: 200px;
+    height: 40px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15.99px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tabs-title.active{
+    background-color:  #18CFAB;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 15.99px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tabs-content{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+}
+
+.tabs-content div p {
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13.64px;
+    line-height: 24.37px;
+}
+
+.tabs-content-hidden{
+    display: none;
+}
+
+.img-section{
+    background-repeat: no-repeat;
+    width: 100ww;
+    height: 450px;
+    background-image: url(../image/Layer\ 21\ 1.png);
+}
+
+
+.img-section-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #18CFAB;
+    padding-top: 150px;
+}
+
+.img-section-paragraph{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #D8D8D8;
+    padding-top: 30px;
+}
+
+.img-section-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #18CFAB;
+    border-top: solid white 4px;
+}
+
+.button-wrraper{
+    text-align: center;
+    margin-top: 80px;
 }
