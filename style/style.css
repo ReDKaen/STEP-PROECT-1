@@ -506,11 +506,27 @@
     margin-bottom: 160px;
 }
 
+.text-to-post{
+    padding: 15px;
+    font-size: 17.99px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #717171;
+}
+
+.comment{
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+}
+
 .card-of-post{
     position: relative;
 }
 
-.card-of-post a::after{
+.card-of-post::after{
     display: flex;
     flex-wrap: wrap;
     content: "12 Feb";
@@ -530,30 +546,19 @@
     line-height: 25px;
 }
 
-.card-of-post a::after{
+.card-of-post::after{
     top: 0px;
     right: 0px;
 }
 
-.card-of-post a:hover::after{
+.card-of-post:hover::after{
     background-color: #18CFAB;
 }
 
-.text-to-post{
-    padding: 15px;
-    font-size: 17.99px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    color: #717171;
+.card-of-post:hover .text-to-post {
+    color: #18CFAB; 
 }
 
-.comment{
-    padding-left: 10px;
-    font-weight: 300;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    color: #777777;
-}
 
 
 
