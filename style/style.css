@@ -262,12 +262,12 @@
 
 .tabs-wrraper::before{
     top: 45px;
-    left: 430px;
+    left: 440px;
 }
 
 .tabs-wrraper::after{
     top: 43px;
-    left: 440px;
+    left: 430px;
 }
 
 .tabs{
@@ -396,12 +396,12 @@
 
 .title-of-amazing-work::before{
     top: 135px;
-    left: 630px;
+    left: 640px;
 }
 
 .title-of-amazing-work::after{
     top: 133px;
-    left: 640px;
+    left: 630px;
 }
 
 .wrraper-button-of-amazing-work{
@@ -413,9 +413,9 @@
 }
 
 .button-of-amazing-work{
+    color: #717171;
     font-weight: 400;
     font-size: 14px;
-    color: #717171;
     font-family: 'Montserrat', sans-serif;
     background-color: #E9EDEF;
     border: 1.5px solid #DADADA;
@@ -423,6 +423,15 @@
 }
 
 .button-of-amazing-work:hover{
+    border: 1.5px solid #18CFAB;
+    color: #18CFAB;
+}
+
+.button-of-amazing-work-active{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
     border: 1.5px solid #18CFAB;
     color: #18CFAB;
 }
@@ -452,6 +461,109 @@
 .load-more-of-amazing-work span{
     padding-left: 10px;
 }
+
+.wrraper-of-breaking-news{
+    position: relative;
+}
+
+.title-of-breaking-news{
+    font-weight: 400;
+    font-size: 36px;
+    color: #717171;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title-of-breaking-news::before,
+.title-of-breaking-news::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 1px; 
+    background-color: #18CFAB;
+    border-radius: 20px;
+}
+
+.title-of-breaking-news::before{
+    top: 55px;
+    left: 640px;
+}
+
+.title-of-breaking-news::after{
+    top: 53px;
+    left: 630px;
+}
+
+.wrraper-of-box-for-news{
+    display: flex;
+    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    gap: 40px;
+    width: 1200px;
+    margin-bottom: 160px;
+}
+
+.card-of-post{
+    position: relative;
+}
+
+.card-of-post a::after{
+    display: flex;
+    flex-wrap: wrap;
+    content: "12 Feb";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #203E38;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+.card-of-post a::after{
+    top: 0px;
+    right: 0px;
+}
+
+.card-of-post a:hover::after{
+    background-color: #18CFAB;
+}
+
+.text-to-post{
+    padding: 15px;
+    font-size: 17.99px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #717171;
+}
+
+.comment{
+    padding-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .footer{
