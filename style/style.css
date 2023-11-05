@@ -244,7 +244,9 @@
 .tabs-wrraper{
     margin-top: 80px;
     position: relative;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .tabs-wrraper::before,
@@ -259,19 +261,18 @@
 }
 
 .tabs-wrraper::before{
-    top: 50px;
-    left: 630px;
+    top: 45px;
+    left: 430px;
 }
 
 .tabs-wrraper::after{
-    top: 53px;
-    left: 640px;
+    top: 43px;
+    left: 440px;
 }
 
 .tabs{
     margin-top: 130px;
     display: flex;
-    margin-left: 200px;
 }
 
 .tabs-title{
@@ -282,6 +283,12 @@
     font-weight: 400;
     font-size: 15.99px;
     font-family: 'Montserrat', sans-serif;
+    background-color: #F8FCFE;
+    border: 1.5px solid #EDEFEF;
+}
+
+.tabs-title:hover{
+    border: 1.5px solid #18CFAB;
 }
 
 .tabs-title.active{
@@ -292,13 +299,13 @@
     font-weight: 400;
     font-size: 15.99px;
     font-family: 'Montserrat', sans-serif;
+    border: 1.5px solid #18CFAB;
 }
 
 .tabs-content{
     margin-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
     display: flex;
+    margin-bottom: 60px;
 }
 
 .tabs-content div p {
@@ -307,6 +314,11 @@
     font-weight: 300;
     font-size: 13.64px;
     line-height: 24.37px;
+    margin-left: 10px;
+}
+
+.tabs-content-active{
+    display: flex;
 }
 
 .tabs-content-hidden{
@@ -355,4 +367,104 @@
 .button-wrraper{
     text-align: center;
     margin-top: 80px;
+}
+
+.section-of-amazing-work{
+    background-color: #E9EDEF;
+}
+
+.title-of-amazing-work{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #4E4E4E;
+    padding-top: 70px;
+}
+
+.title-of-amazing-work::before,
+.title-of-amazing-work::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 80px;
+    height: 1px; 
+    background-color: #18CFAB;
+    border-radius: 20px;
+}
+
+.title-of-amazing-work::before{
+    top: 135px;
+    left: 630px;
+}
+
+.title-of-amazing-work::after{
+    top: 133px;
+    left: 640px;
+}
+
+.wrraper-button-of-amazing-work{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    padding-bottom: 100px;
+}
+
+.button-of-amazing-work{
+    font-weight: 400;
+    font-size: 14px;
+    color: #717171;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E9EDEF;
+    border: 1.5px solid #DADADA;
+    padding: 30px;
+}
+
+.button-of-amazing-work:hover{
+    border: 1.5px solid #18CFAB;
+    color: #18CFAB;
+}
+
+.wrraper-img-of-amazing-work{
+    margin-left: 100px;
+}
+
+.wrraper-load-of-amazing-work{
+    text-align: center;
+    padding: 70px;
+}
+
+.load-more-of-amazing-work{
+    background-color: #18CFAB;
+    color: #FFFFFF;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1.5px solid #18CFAB;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.load-more-of-amazing-work span{
+    padding-left: 10px;
+}
+
+
+.footer{
+    background-color: #22353F;
+    height: 100px;
+}
+
+.footer p{
+    text-align: center;
+    color: #AEAEAE;
+    padding-top: 40px;
+}
+
+.footer p span{
+    color: #18CFAB;
 }
