@@ -321,7 +321,7 @@
     display: flex;
 }
 
-.tabs-content-hidden{
+.hidden{
     display: none;
 }
 
