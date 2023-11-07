@@ -436,8 +436,15 @@
     color: #18CFAB;
 }
 
+.button-of-amazing-work.active{
+    border: 1.5px solid #18CFAB;
+    color: #18CFAB;
+}
+
 .wrraper-img-of-amazing-work{
-    margin-left: 100px;
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .wrraper-load-of-amazing-work{
