@@ -287,6 +287,18 @@
     border: 1.5px solid #EDEFEF;
 }
 
+.tabs-title.active::after{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #18CFAB;
+    transform: rotate(45deg);
+    bottom: -10px;
+    left: 67px;
+}
+
+
 .tabs-title:hover{
     border: 1.5px solid #18CFAB;
 }
@@ -300,6 +312,7 @@
     font-size: 15.99px;
     font-family: 'Montserrat', sans-serif;
     border: 1.5px solid #18CFAB;
+    position: relative;
 }
 
 .tabs-content{
@@ -410,6 +423,15 @@
     margin-top: 100px;
     margin-left: 350px;
     padding-bottom: 100px;
+}
+
+.wrraper-img-of-amazing-work.img-of-amazing-work::before{
+    content: "";
+    background-color: #00CBF6;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
 }
 
 .button-of-amazing-work{
