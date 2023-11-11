@@ -17,9 +17,6 @@ tabs.forEach((tab, index) => {
     });
 });
 
-
-
-
 function filter() {
     list.addEventListener("click", event => {
         const targetId = event.target.dataset.id
@@ -63,7 +60,6 @@ function getContent(className) {
         }
     }
 }
-
 
 let newImage = [
     "./image/Layer 27.png",
