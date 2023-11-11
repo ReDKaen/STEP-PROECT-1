@@ -673,6 +673,7 @@
 }
 
 .wrraper-button-of-slider{
+    padding-top: 500px;
     display: flex;
     height: 200px;
     justify-content: center;
