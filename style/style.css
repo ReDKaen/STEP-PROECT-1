@@ -719,3 +719,8 @@
 .footer p span{
     color: #18CFAB;
 }
+
+.slick-track{
+    display: flex;
+    min-width: 0;
+}
